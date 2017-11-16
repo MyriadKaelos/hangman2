@@ -1,0 +1,49 @@
+button, select{
+    background-color: darkgoldenrod;
+    color: beige;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    outline: none;
+    box-shadow: 0 4px 0 grey;
+    float: none;
+    width: 116px;
+}
+button:hover, select:hover {
+    background-color: #68440b;
+}
+button:active, select:active{
+    transform: translateY(3px);
+    box-shadow: 0 1px 0 grey;
+}
+body {
+    background-color: beige;
+}
+#error {
+    position: fixed;
+    color: saddlebrown;
+    padding-left: 5px;
+}
+#blanks {
+    position: fixed;
+    color: saddlebrown;
+    padding-left: 5px;
+}
+.holder {
+    position: relative;
+    top: 10px;
+    background-color: peachpuff;
+    border-radius: 5px;
+    border: 1px solid palegoldenrod;
+    width: 354px;
+    height: 20px;
+}
+#lives {
+    position: absolute;
+    color: saddlebrown;
+    padding-right: 5px;
+    right: 0px;
+}
+.title {
+    color: darkslategray;
+}

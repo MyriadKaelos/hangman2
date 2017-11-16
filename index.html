@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body onload="loadStuff()">
+    <h4 class="title">This is hangman, you can chose a level and then click run hangman to play.</h4>
+    <h4 class="title">Once you win or lose, you must chose a level again.</h4>
+    <button id="Run Hangman" onclick="runHangMan()">Run Hangman</button>
+    <select id="selectLetters" title="Letters" onchange="tryLetter()">
+    </select>
+    <select id="selectLevel" title="Level">
+        <option value="none">Select a level</option>
+    </select>
+    <div class="holder">
+        <span class="error" id="error"></span>
+        <span class="error" id="blanks"></span>
+        <span class="error" id="lives"></span>
+    </div>
+</body>
+</html>
