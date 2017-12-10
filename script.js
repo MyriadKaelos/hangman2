@@ -5,9 +5,9 @@ var chosen = null;
 var myBlanksMine = "";
 
 level1 = ["CAT","FEZ","JOB","VAN","TOP","DOG","BOX"];
-level2 = ["GREAT","FORESTS","STREETS","CIRCLE","CANDLE"];
-level3 = ["PALINDROME","FOREIGNER","COMPROMISE","TREASON"];
-level4 = ["TO BE OR NOT TO BE","ONE IN THE HAND","I WONDER WHILE I WANDER"];
+level2 = ["GREAT","FORESTS","STREETS","CIRCLE","CANDLE","DROUGHT","MYRIAD","TRIAL"];
+level3 = ["PALINDROME","FOREIGNER","COMPROMISE","TREASON","MALIGNANT","INCOMPREHENSIBLE"];
+level4 = ["TO BE OR NOT TO BE","ONE IN THE HAND","I WONDER WHILE I WANDER","TWO IN THE BUSH","TO SURVIVE IS TO","FIND MEANING IN SUFFERING"];
 solutions = Object();
 solutions = {
     values: [level1,level2,level3,level4],
